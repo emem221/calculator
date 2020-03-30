@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+
+    <div class="calculator">
+        <div id='entrybox' class='text-right'>
+            <div id='entry'>
+                <p id='answer'>0</p>
+            </div>
+            <div id='history'>
+                <p>0</p>
+            </div>
+        </div>
+
+        <div class="calculator-keys">
+            <button type="button" class="pink" value="ac">AC</button>
+            <button type="button" class="pink" value='ce'>CE</button>
+            <button type="button" class="operator" value="*">&times;</button>
+            <button type="button" class="operator" value="/">&divide;</button>
+
+            <button type="button" value="7">7</button>
+            <button type="button" value="8">8</button>
+            <button type="button" value="9">9</button>
+            <button type="button" class="operator" value="-">-</button>
+
+            <button type="button" value="4">4</button>
+            <button type="button" value="5">5</button>
+            <button type="button" value="6">6</button>
+            <button type="button" class="operator" value="+">+</button>
+
+            <button type="button" value="1">1</button>
+            <button type="button" value="2">2</button>
+            <button type="button" value="3">3</button>
+
+            <button type="button" id="equalButton" class="equal-sign" value="=">=</button>
+            <button type="button" value="0">0</button>
+            <button type="button" class="decimal" value=".">.</button>
+
+        </div>
+
+        <div id="tester"></div>
+    </div>
+
+    <footer id="footer" class="text-center">
+        <div class="container">
+            Designed & Coded by &copy;Emem 2020
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.calculator {
+    height: 450px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+#entrybox {
+    width: 100%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: #252525;
+    color: #fff;
+}
+
+#entry {
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+button {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2rem;
+    color: #333;
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04));
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05), inset 0 1px 0 0 rgba(255, 255, 255, .45), inset 0 -1px 0 0 rgba(255, 255, 255, .15), 0 1px 0 0 rgba(255, 255, 255, .15);
+    text-shadow: 0 1px rgba(255, 255, 255, .4);
+}
+
+button:hover {
+    background-color: #eaeaea;
+}
+
+button:active {
+    transform: translate(0px, 3px);
+    box-shadow: none;
+}
+
+.operator {
+    color: #337cac;
+}
+
+.clear {
+    background-color: #f17377;
+    border-color: #b0353a;
+    color: #fff;
+}
+
+.clear:hover {
+    background-color: #f17377;
+}
+
+.equal-sign:hover {
+    background-color: #4e9ed4;
+}
+
+.equal-sign {
+    background-color: #2e86c0;
+    border-color: #337cac;
+    color: #fff;
+    height: 100%;
+}
+
+.calculator-keys {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    width: 280px;
+    height: auto;
+}
+
+.pink {
+    font-size: 14px;
+    background-color: #f85157;
+}
+
+#footer {
+    font-family: 'Lucida Sans';
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 40px;
+    height: 40px;
+    width: 100%;
+}
+
+#history {
+    position: relative;
+    height: 10px;
+    margin-top: 8px;
+    margin-left: 8px;
+    color: #f85157;
+    font-size: 12px;
+}
