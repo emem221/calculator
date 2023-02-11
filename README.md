@@ -1,4 +1,4 @@
-# Calculator
+# Calculator App
 
  ## This app helps you calculate figures
  
